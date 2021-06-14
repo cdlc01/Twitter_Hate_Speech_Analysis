@@ -24,6 +24,20 @@ In the search for the optimal classification dataset, I tested about INSERT NUMB
 
 ## Result 1
 
+Looking at a word frequency chart, we can see the the most targeted identity classes in our tweet collection are (not in this order):
+
+- Race: Asian
+- Race: Black
+- Race: White
+- Gender: Women
+- Sexuality: LGBTQIA+
+
+## Visual 1
+
+![Hate_Tweets_Word_Freq](https://user-images.githubusercontent.com/77891283/121957777-de803300-cd30-11eb-9618-3ecf67ce5891.png)
+
+## Result 2
+
 ## Visual 1
 
 ## Conclusions
