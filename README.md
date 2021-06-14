@@ -20,6 +20,8 @@ My data of labeled hate tweets and not hate tweets were built from five differen
 
 ## Methods
 
+In the search for the optimal classification dataset, I tested about INSERT NUMBER HERE different models including Multinomial Bayes, Logistic Regression, Decision Tree, Random Forest, ADA Boosting, Gradient Boosting, XGBoost, and a Deep Learning Neural Network. For pre-processing, I tested two different regex statements (one pulled only words from the tweets and the other pulled words, hashtags and mentions) and different class balances with SMOTE. For vectorization, I tested both TF-IDF (Term Frequency - Inverse Document Frequency) and Count Vectorizer. Pipelines and Grid Searches were used in order to find optimal models. 
+
 ## Result 1
 
 ## Visual 1
