@@ -10,6 +10,14 @@ According to both the FBI (Federeal Bureau of Investigations) and the Geneva Int
 
 ## Data
 
+My data of labeled hate tweets and not hate tweets were built from five different datasets of labeled tweets:
+
+- Twitter Hate Speech dataset on Kaggle (https://www.kaggle.com/vkrahul/twitter-hate-speech)
+- Twitter Hate Speech and Offensive Language dataset on Kaggle (https://www.kaggle.com/mrmorj/hate-speech-and-offensive-language-dataset?select=labeled_data.csv)
+- Hate Speech dataset on Kaggle (https://www.kaggle.com/pandeyakshive97/hate-speech-dataset)
+- Hate Speech (English) dataset on Kaggle (https://www.kaggle.com/ibtesama/hatespeech?select=english.tsv)
+- COVID Hate Tweet dataset from Georgia Tech & CLAWS (http://claws.cc.gatech.edu/covid#dataset-download)
+
 ## Methods
 
 ## Result 1
@@ -19,9 +27,9 @@ According to both the FBI (Federeal Bureau of Investigations) and the Geneva Int
 ## Conclusions
 
 For More Information
-Please review our full analysis in our Jupyter Notebook or our presentation: https://docs.google.com/presentation/d/1SX5UJGmCgV2di-Wo5SZsfECan8wcSG7Y7HiPm24aCQs/edit#slide=id.gd0341dc497_0_842
+Please review my full analysis in my Jupyter Notebook or my presentation: INSERT Jupyter Notebook AND PDF Presentation
 
-For any additional questions, please contact Christopher de la Cruz at cdelacruz2013@gmail.com, David Tian at dt1086@stern.nyu.edu
+For any additional questions, please contact Christopher de la Cruz at cdelacruz2013@gmail.com
 
 Repository Structure
 ├── README.md                                         <- The top-level README for reviewers of this project
