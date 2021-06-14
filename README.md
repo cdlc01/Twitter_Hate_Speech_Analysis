@@ -38,7 +38,12 @@ Looking at a word frequency chart, we can see the the most targeted identity cla
 
 ## Result 2
 
+The violin plots suggest that hate tweets are longer on average then not hate tweets but we need to be 100% sure. A two sample T-Test with a chosen alpha level of 0.05 returned a p-values of less then 0.05 therefore the two groups are statistally significantly different. Furthermore, the histogram data on the two groups approximate the hate tweets to be about 24 characters longer on average then not hate tweets
+
 ## Visual 1
+
+![Hate_speech_violinplots](https://user-images.githubusercontent.com/77891283/121961059-eb9f2100-cd34-11eb-8e3d-2e6de654c190.png)
+![Hate_speech_Histograms](https://user-images.githubusercontent.com/77891283/121961070-ef32a800-cd34-11eb-97d2-4c62d565ca10.png)
 
 ## Conclusions
 
