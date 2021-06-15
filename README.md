@@ -61,4 +61,3 @@ Repository Structure
 
 ├── README.md                                         <- The top-level README for reviewers of this project
 ├── Nan.pdf                                           <- PDF version of project presentation
-
