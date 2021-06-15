@@ -56,7 +56,8 @@ Please review my full analysis in my Jupyter Notebook or my presentation: INSERT
 
 For any additional questions, please contact Christopher de la Cruz at cdelacruz2013@gmail.com
 
-Repository Structure                                                                                                                                               
+Repository Structure  
+```js
 ├── README.md                                         <- The top-level README for reviewers of this project                                                         
 ├── Nan.pdf                                           <- PDF version of project presentation                                                                       
 ├── EDA.ipynb                                         <- Narrative documentation of analysis in Jupyter notebook      
@@ -65,4 +66,5 @@ Repository Structure
   ├── ADA Boosting Classifier.ipynb                   <- Narrative documentation of ADA Boosting analysis Classifier in Jupyter notebook                               ├── Decision Tree Classifier.ipynb                  <- Narrative documentation of Decision Tree Classifier analysis in Jupyter notebook                             ├── First Simple Model.ipynb                        <- Narrative documentation of Dummy Classifier analysis in Jupyter notebook                                     ├── Gradient Boosting Classifier.ipynb              <- Narrative documentation of Gradient Boosting Classifier analysis in Jupyter notebook                         ├── Logistic_Regression_Classifier.ipynb            <- Narrative documentation of Logistic Regression Classifier analysis in Jupyter notebook                       ├── Multinomial_Bayes.ipynb                         <- Narrative documentation of Multinomial Bayes Classifier analysis in Jupyter notebook
   ├── Random Forest Classifier.ipynb                  <- Narrative documentation of Random Forest Classifier analysis in Jupyter notebook                             ├── Support Vector Classifier.ipynb                 <- Narrative documentation of Support Vector Classifier analysis in Jupyter notebook
   └── XGBoost Classifier.ipynb                        <- Narrative documentation of XGBoost Classifier analysis in Jupyter notebook                                 
-└── images                                            <- Both sourced externally and generated from code                                                                                                                 
+└── images                                            <- Both sourced externally and generated from code  
+```
