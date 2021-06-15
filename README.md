@@ -24,13 +24,13 @@ In the search for the optimal classification dataset, I tested about INSERT NUMB
 
 ## Result 1
 
-Looking at a word frequency chart, we can see the the most targeted identity classes in our tweet collection are (not in this order):
+Looking at a word frequency chart, we can see the the most targeted identity classes (not the most used words) in our tweet collection are (not in this order):
 
 - Race: Asian
 - Race: Black
 - Race: White
 - Gender: Women
-- Sexuality: LGBTQIA+
+- Sexual Orientation: Gay
 
 ## Visual 1
 
@@ -40,10 +40,14 @@ Looking at a word frequency chart, we can see the the most targeted identity cla
 
 The violin plots suggest that hate tweets are longer on average then not hate tweets but we need to be 100% sure. A two sample T-Test with a chosen alpha level of 0.05 returned a p-values of less then 0.05 therefore the two groups are statistally significantly different. Furthermore, the histogram data on the two groups approximate the hate tweets to be about 24 characters longer on average then not hate tweets
 
-## Visual 1
+## Visual 2
 
 ![Hate_speech_violinplots](https://user-images.githubusercontent.com/77891283/121961059-eb9f2100-cd34-11eb-8e3d-2e6de654c190.png)
 ![Hate_speech_Histograms](https://user-images.githubusercontent.com/77891283/121961070-ef32a800-cd34-11eb-97d2-4c62d565ca10.png)
+
+## Result 3
+
+## Visual 3
 
 ## Conclusions
 
@@ -55,6 +59,10 @@ For any additional questions, please contact Christopher de la Cruz at cdelacruz
 Repository Structure                                                                                                                                               
 ├── README.md                                         <- The top-level README for reviewers of this project                                                         
 ├── Nan.pdf                                           <- PDF version of project presentation                                                                       
-├── EDA.ipynb                                         <- Narrative documentation of analysis in Jupyter notebook                                                   
-├── data                                              <- Both sourced externally and generated from code                                                           
-└── images                                            <- Both sourced externally and generated from code                                                           
+├── EDA.ipynb                                         <- Narrative documentation of analysis in Jupyter notebook      
+├── Modeling                                          <- Folder of individual model notebooks                                                                       
+  ├── data                                            <- Both sourced externally and generated from code                                                        
+  ├── ADA Boosting Classifier.ipynb                   <- Narrative documentation of ADA Boosting analysis Classifier in Jupyter notebook                               ├── Decision Tree Classifier.ipynb                  <- Narrative documentation of Decision Tree Classifier analysis in Jupyter notebook                             ├── First Simple Model.ipynb                        <- Narrative documentation of Dummy Classifier analysis in Jupyter notebook                                     ├── Gradient Boosting Classifier.ipynb              <- Narrative documentation of Gradient Boosting Classifier analysis in Jupyter notebook                         ├── Logistic_Regression_Classifier.ipynb            <- Narrative documentation of Logistic Regression Classifier analysis in Jupyter notebook                       ├── Multinomial_Bayes.ipynb                         <- Narrative documentation of Multinomial Bayes Classifier analysis in Jupyter notebook
+  ├── Random Forest Classifier.ipynb                  <- Narrative documentation of Random Forest Classifier analysis in Jupyter notebook                             ├── Support Vector Classifier.ipynb                 <- Narrative documentation of Support Vector Classifier analysis in Jupyter notebook
+  └── XGBoost Classifier.ipynb                        <- Narrative documentation of XGBoost Classifier analysis in Jupyter notebook                                 
+└── images                                            <- Both sourced externally and generated from code                                                                                                                 
