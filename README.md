@@ -53,11 +53,11 @@ Please review my full analysis in my Jupyter Notebook or my presentation: INSERT
 For any additional questions, please contact Christopher de la Cruz at cdelacruz2013@gmail.com
 
 Repository Structure
-├── README.md                                         <- The top-level README for reviewers of this project
-├── Nan.pdf                                           <- PDF version of project presentation
-├── EDA.ipynb                                         <- Narrative documentation of analysis in Jupyter notebook 
-├── data                                              <- Both sourced externally and generated from code     
-└── images                                            <- Both sourced externally and generated from code
+├── README.md                                         <- The top-level README for reviewers of this project                                                         
+├── Nan.pdf                                           <- PDF version of project presentation                                                                       
+├── EDA.ipynb                                         <- Narrative documentation of analysis in Jupyter notebook                                                   
+├── data                                              <- Both sourced externally and generated from code                                                           
+└── images                                            <- Both sourced externally and generated from code                                                           
 
 ├── README.md                                         <- The top-level README for reviewers of this project                                                         
 ├── Nan.pdf                                           <- PDF version of project presentation
