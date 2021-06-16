@@ -47,15 +47,12 @@ The violin plots suggest that hate tweets are longer on average then not hate tw
 ![Hate_speech_violinplots](https://user-images.githubusercontent.com/77891283/121961059-eb9f2100-cd34-11eb-8e3d-2e6de654c190.png)
 ![Hate_speech_Histograms](https://user-images.githubusercontent.com/77891283/121961070-ef32a800-cd34-11eb-97d2-4c62d565ca10.png)
 
-## Result 3
-
-## Visual 3
-
 ## Conclusions
 
 For More Information
-Please review my full analysis in my Jupyter Notebook or my presentation: INSERT Jupyter Notebook AND PDF Presentation
 
+Please review my full analysis in my Jupyter Notebook titled EDA.ipynb or my presentation at [#HateTweetAnalysis.pdf](https://github.com/cdlc01/Twitter_Hate_Speech_Analysis/files/6662993/HateTweetAnalysis.pdf) 
+ 
 For any additional questions, please contact Christopher de la Cruz at cdelacruz2013@gmail.com
 
 Repository Structure  
