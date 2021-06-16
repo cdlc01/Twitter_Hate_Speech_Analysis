@@ -4,8 +4,6 @@
 
 ## Overview
 
-Our analysis currently reflects what types of films are doing best at the box office in 2021. We take a deep dive into exploring movie profits and popularity and their relationship with other film factors. Our project currently shows that action, adventure, and sci-fi movies are performing best and that the most profitable plots have familiar (and familial) themes and high stakes. This analysis can be used by any film studio currently debating what kinds of movies they should be making
-
 My analysis takes a deep dive into the characteristics of hate speech that has been trending online over the past few years. I specifically explore what words pop up the most often in hate speech as well as the length of hate tweets vs other tweets. I also develop a classification model for detecting hate speech over other kinds of speech. With the current amount of data, the model has difficulty getting both high precision and high recall when detecting hate speech. High precision is prioritized in the current model but other techniques will be used to further explore better models. The information in this analysis can be used by any organization looking to better understand the trends in hate speech over the past few years and which classes are most at risk.
 
 ## Business Problem
