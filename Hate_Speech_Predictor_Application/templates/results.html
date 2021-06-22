@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hate Speech Predictor</title>
+    <link rel="stylesheet" media="screen" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Results</h1>
+      </div>
+      <div class="container">
+        <table style="width: 100%;">
+          <tbody>
+            <tr>
+              <td class="align-middle" style="width: 33%; text-align: right;">
+                The model's prediction is
+              </td>
+              <td class="align-middle" style="width: 33%; text-align: center; font-size: 3em;">
+                {{ prediction }}
+              </td>
+              <td class="align-middle" style="width: 33%">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <hr>
+        <div class="row">
+          <div class="col" style="text-align: center;">
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col" style="text-align: center;">
+            <a href="/">Go back home</a>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </body>
+</html>
