@@ -17,11 +17,9 @@ def make_prediction():
 
    # Get the data from the submitted form
     data = request.form
-    print(data) # Remove this when you're done debugging
 
     # Convert the data into just a list of values to be sent to the model
     feature_values = extract_feature_values(data)
-    print(feature_values) # Remove this when you're done debugging
 
     # Send the values to the model to get a prediction
     prediction = get_prediction(feature_values)
@@ -35,13 +33,6 @@ def show_results():
     
     # Extract the prediction from the URL params
     prediction = request.args.get("prediction")
-    #data = request.form
-    #feature_values = extract_feature_values(data)
-    #prediction = get_prediction(feature_values)
-    #if prediction == 0:
-       # prediction = "Not Hate Speech"
-    #elif prediction == 1:
-        #prediction = "Hate Speech"
 
     # Return the results pge
     return render_template("results.html", 
