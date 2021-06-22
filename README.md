@@ -4,7 +4,7 @@
 
 ## Overview
 
-My analysis takes a deep dive into the characteristics of hate speech that has been trending online over the past few years. I specifically explore what words pop up the most often in hate speech as well as the length of hate tweets vs other tweets. I also develop a classification model for detecting hate speech over other kinds of speech. With the current amount of data, the model has difficulty getting both high precision and high recall when detecting hate speech. High precision is prioritized in the current model but other techniques will be used to further explore better models. The information in this analysis can be used by any organization looking to better understand the trends in hate speech over the past few years and which classes are most at risk.
+My analysis takes a deep dive into the characteristics of hate speech that has been trending online over the past few years. I specifically explore what words pop up the most often in hate speech as well as the length of hate tweets vs other tweets. I also develop a classification model for detecting hate speech over other kinds of speech. With the current amount of data, the model has difficulty getting both high precision and high recall when detecting hate speech. High precision is prioritized in the current model but other techniques will be used to further explore better models. Support Vector Classifier is, so far, the best model for classifying Hate Speech. The model is especially good at finding hate speech that revolves around current events (relating to cornovirus, anti-asian hate, polarized political language, etc). The model struggles to classify hate speech that's vaguer and that involves offensive terms that are only hate speech in specific contexts. The information in this analysis can be used by any organization looking to better understand the trends in hate speech over the past few years and which classes are most at risk.
 
 ## Business Problem
 
@@ -22,7 +22,7 @@ My data of labeled hate tweets and not hate tweets were built from five differen
 
 ## Methods
 
-In the search for the optimal classification dataset, I tested about INSERT NUMBER HERE different models including Multinomial Bayes, Logistic Regression, Decision Tree, Random Forest, ADA Boosting, Gradient Boosting, XGBoost, and a Deep Learning Neural Network. For pre-processing, I tested two different regex statements (one pulled only words from the tweets and the other pulled words, hashtags and mentions) and different class balances with SMOTE. For vectorization, I tested both TF-IDF (Term Frequency - Inverse Document Frequency) and Count Vectorizer. Pipelines and Grid Searches were used in order to find optimal models. 
+In the search for the optimal classification dataset, I tested about 7,000 different models including Multinomial Bayes, Logistic Regression, Decision Tree, Random Forest, Support Vector Classifier, ADA Boosting, Gradient Boosting, and XGBoost. For pre-processing, I tested two different regex statements (one pulled only words from the tweets and the other pulled words, hashtags and mentions) and different class balances with SMOTE. For vectorization, I tested both TF-IDF (Term Frequency - Inverse Document Frequency) and Count Vectorizer. Pipelines and Grid Searches were used in order to find optimal models. 
 
 ## Result 1
 
@@ -58,7 +58,7 @@ For any additional questions, please contact Christopher de la Cruz at cdelacruz
 Repository Structure  
 ```js 
 ├── README.md                                         <- The top-level README for reviewers of this project 
-├── Nan.pdf                                           <- PDF version of project presentation
+├── #HateTweetAnalysis.pdf                                           <- PDF version of project presentation
 ├── EDA.ipynb                                         <- Narrative documentation of analysis in Jupyter notebook
 ├── Modeling                                          <- Folder of individual model notebooks
   ├── data                                            <- Both sourced externally and generated from code
