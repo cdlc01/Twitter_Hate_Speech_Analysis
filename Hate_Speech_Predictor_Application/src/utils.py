@@ -1,3 +1,4 @@
+from flask import Flask, request
 import pandas as pd
 import pickle
 
@@ -20,4 +21,4 @@ def extract_feature_values(data):
     
     #return pd.DataFrame(new_values, columns=EXPECTED_FEATURES)
     
-    return [data]
+    return [str(data)]
