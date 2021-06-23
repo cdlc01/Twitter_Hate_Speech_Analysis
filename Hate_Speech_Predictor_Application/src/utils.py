@@ -20,4 +20,4 @@ def extract_feature_values(data):
     
     #return pd.DataFrame(new_values, columns=EXPECTED_FEATURES)
     
-    return [[data]]
+    return [data]
