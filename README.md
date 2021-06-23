@@ -49,11 +49,11 @@ The violin plots suggest that hate tweets are longer on average then not hate tw
 
 ## Result 3
 
-The confusion matrix below shows the results of our best model. Precision is at about 83%, out of the 451 tweets that the model predicted as hate speech, 374 tweets were actually hate speech and recall is at about 32%, out of 1,175 hate tweets, the model correctly identified 374 of these tweets.
+The confusion matrix below shows the results of our best model. Precision is at about 85%, out of the 440 tweets that the model predicted as hate speech, 376 tweets were actually hate speech and recall is at about 32%, out of 1,175 hate tweets, the model correctly identified 376 of these tweets.
 
 ## Visual 3
 
-![confusion_matrix](https://user-images.githubusercontent.com/77891283/123092556-992ac800-d3f8-11eb-87b2-d968c033408c.png)
+![Updated_confusion_matrix](https://user-images.githubusercontent.com/77891283/123156856-cfd40300-d437-11eb-8068-9fbd1698432f.png)
 
 ## Conclusions
 
