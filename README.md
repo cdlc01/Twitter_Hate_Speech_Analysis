@@ -59,7 +59,7 @@ The confusion matrix below shows the results of our best model. Precision is at 
 
 For More Information
 
-Please review my full analysis in my Jupyter Notebook titled CRISP-DM.ipynb or my presentation at [#HateTweetAnalysis.pdf](https://github.com/cdlc01/Twitter_Hate_Speech_Analysis/files/6701662/HateTweetAnalysis.pdf)
+Please review my full analysis in my Jupyter Notebook titled CRISP-DM.ipynb or my presentation at [#HateTweetAnalysis.pdf](https://github.com/cdlc01/Twitter_Hate_Speech_Analysis/files/6704457/HateTweetAnalysis.pdf)
  
 For any additional questions, please contact Christopher de la Cruz at cdelacruz2013@gmail.com
 
