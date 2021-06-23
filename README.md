@@ -45,21 +45,30 @@ The violin plots suggest that hate tweets are longer on average then not hate tw
 ## Visual 2
 
 ![Hate_speech_violinplots](https://user-images.githubusercontent.com/77891283/121961059-eb9f2100-cd34-11eb-8e3d-2e6de654c190.png)
-![Hate_speech_Histograms](https://user-images.githubusercontent.com/77891283/121961070-ef32a800-cd34-11eb-97d2-4c62d565ca10.png)
+![Updated_histograms](https://user-images.githubusercontent.com/77891283/123092287-54069600-d3f8-11eb-95a7-bdf3f08bc0be.png)
+
+## Result 3
+
+The confusion matrix below shows the results of our best model. Precision is at about 83%, out of the 451 tweets that the model predicted as hate speech, 374 tweets were actually hate speech and recall is at about 32%, out of 1,175 hate tweets, the model correctly identified 374 of these tweets.
+
+## Visual 3
+
+![confusion_matrix](https://user-images.githubusercontent.com/77891283/123092556-992ac800-d3f8-11eb-87b2-d968c033408c.png)
 
 ## Conclusions
 
 For More Information
 
-Please review my full analysis in my Jupyter Notebook titled EDA.ipynb or my presentation at [#HateTweetAnalysis.pdf](https://github.com/cdlc01/Twitter_Hate_Speech_Analysis/files/6662993/HateTweetAnalysis.pdf) 
+Please review my full analysis in my Jupyter Notebook titled CRISP-DM.ipynb or my presentation at [#HateTweetAnalysis.pdf](https://github.com/cdlc01/Twitter_Hate_Speech_Analysis/files/6662993/HateTweetAnalysis.pdf) 
  
 For any additional questions, please contact Christopher de la Cruz at cdelacruz2013@gmail.com
 
 Repository Structure  
 ```js 
 ├── README.md                                         <- The top-level README for reviewers of this project 
-├── #HateTweetAnalysis.pdf                                           <- PDF version of project presentation
-├── EDA.ipynb                                         <- Narrative documentation of analysis in Jupyter notebook
+├── #HateTweetAnalysis.pdf                            <- PDF version of project presentation
+├── CRISP-DM.ipynb                                    <- Narrative documentation of analysis in Jupyter notebook
+├── Hate_Speech_Predictor_Application                 <- README instructions and necessary .py and .html files to run hate speech predictor application
 ├── Modeling                                          <- Folder of individual model notebooks
   ├── data                                            <- Both sourced externally and generated from code
   ├── ADA Boosting Classifier.ipynb                   <- Narrative documentation of ADA Boosting analysis Classifier in Jupyter notebook
