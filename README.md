@@ -36,7 +36,7 @@ Looking at a word frequency chart, we can see the the most targeted identity cla
 
 ## Visual 1
 
-![Hate_Tweets_Word_Freq](https://user-images.githubusercontent.com/77891283/121957777-de803300-cd30-11eb-9618-3ecf67ce5891.png)
+![Updated_Freq_Plot](https://user-images.githubusercontent.com/77891283/123094795-528a9d00-d3fb-11eb-844d-c404d3411f92.png)
 
 ## Result 2
 
